@@ -1,0 +1,13 @@
+aws_region  = "us-east-1"
+project     = "dataplat"
+environment = "dev"
+owner       = "platform-team"
+
+private_subnet_ids       = ["subnet-aaa", "subnet-bbb", "subnet-ccc"]
+db_security_group_ids    = ["sg-db"]
+msk_security_group_ids   = ["sg-msk"]
+redis_security_group_ids = ["sg-redis"]
+os_security_group_ids    = ["sg-os"]
+
+db_username = "dbadmin"
+db_password = "CHANGE_ME_USE_SECRETS_MANAGER"
